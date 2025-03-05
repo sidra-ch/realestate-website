@@ -113,12 +113,12 @@ const Header = () => {
       {/* Contact and User Icon */}
       <div className="flex justify-center items-center lg:gap-8 gap-2">
         <div className="flex justify-center items-center lg:gap-3 gap-1">
-          <FaPhoneAlt className="size-5 text-red-600" />
+          <FaPhoneAlt className="size-5 text-black" />
           <h1 className="lg:text-xl text-sm text-black dark:text-gray-500 font-semibold">
             333 111 222
           </h1>
         </div>
-        <FaUserCircle className="size-6 text-red-600" />
+        <FaUserCircle className="size-6 text-black" />
       </div>
     </nav>
   );
